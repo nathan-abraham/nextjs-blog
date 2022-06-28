@@ -6,6 +6,6 @@
 # Install dependencies
 npm install
 
-# Run the dev server
+# Run the development server
 npm run dev
 ```
