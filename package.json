@@ -1,0 +1,29 @@
+{
+  "name": "hg-blog",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "daisyui": "^2.17.0",
+    "fuse.js": "^6.6.2",
+    "gray-matter": "^4.0.3",
+    "highlight.js": "^11.5.1",
+    "marked": "^2.1.2",
+    "next": "11.0.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.2",
+    "autoprefixer": "^10.4.7",
+    "eslint": "7.29.0",
+    "eslint-config-next": "11.0.1",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.4"
+  }
+}
