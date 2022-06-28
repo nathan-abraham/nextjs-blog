@@ -30,19 +30,12 @@ export default function Searchbar({ posts, setMatches }) {
       results.forEach((result) => {
         matches.push(posts[result.item.id]);
       });
-      console.log(matches);
       setMatches(matches);
     }
   };
 
   return (
     <>
-      {/* <input
-        type="text"
-        value={query}
-        onChange={onSearch}
-        className="bg-base-300"
-      /> */}
       <form>
         <label
           htmlFor="default-search"
